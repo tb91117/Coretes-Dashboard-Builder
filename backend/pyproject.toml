@@ -1,0 +1,17 @@
+[project]
+name = "coretas-backend"
+version = "0.1.0"
+description = "Coretas Campaign Auto-Builder API"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.109.0",
+    "uvicorn[standard]>=0.27.0",
+    "sqlalchemy>=2.0.0",
+    "aiosqlite>=0.19.0",
+    "pydantic>=2.5.0",
+    "pydantic-settings>=2.1.0",
+    "openai>=1.10.0",
+    "httpx>=0.26.0",
+    "python-dotenv>=1.0.0",
+    "tenacity>=8.2.0",
+]
